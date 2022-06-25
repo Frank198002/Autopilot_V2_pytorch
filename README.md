@@ -50,17 +50,17 @@ The png number and Steer angle are saved in data.txt which is included in folder
 
 # File Organization
 ├── Autopilot_V2_Pytorch (Current Directory) 
-    ├── driving_dataset 
-    ├── LICENSE
-    ├── modeles
-    ├── Py_autopilot2_debug.ipynb   
+    ├── driving_dataset  
+    ├── LICENSE  
+    ├── modeles  
+    ├── Py_autopilot2_debug.ipynb 
     ├── Py_autopilot2_final_testshow.py  
     ├── Py_autopilot2_module.py  
-    ├── Py_autopilot2_pre.ipynb 
+    ├── Py_autopilot2_pre.ipynb  
     ├── requirements.txt  
-    ├── resources   
-    ├── readme.md 
-    └── YX_Methods.ipynb 
+    ├── resources  
+    ├── readme.md  
+    └── YX_Methods.ipynb   
 
     
 # References
