@@ -21,6 +21,7 @@ Authors:  Frank yu
    You can install Conda for python which resolves all the dependencies for machine learning.  
    `  python -m pip install --upgrade pip`
    `  pip install requirements.txt`
+   
 
 # Driving Dataset
 Download the dataset at [here](https://github.com/SullyChen/driving-datasets) and extract into the repository folder `driving_dataset`
