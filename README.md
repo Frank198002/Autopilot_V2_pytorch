@@ -14,13 +14,13 @@ Authors:  Frank yu
 
 # Code Requirements
 1. OS is Ubuntu 18.04
-2. Pythen version: 3.8.5
-   You can check the python version by the flowwing command:
+2. Pythen version: 3.8.5  
+   You can check the python version by the flowwing command:  
    `  python --version`
 4. Dependency
    You can install Conda for python which resolves all the dependencies for machine learning.  
-   `  python -m pip install --upgrade pip`
-   `  pip install requirements.txt`
+   `  python -m pip install --upgrade pip`  
+   `  pip install requirements.txt`  
    
 
 # Driving Dataset
@@ -29,32 +29,32 @@ Folder `driving_dataset` obtains 45406 .jpg files, 3.1GB. Data was recorded arou
 The png number and Steer angle are saved in data.txt which is included in folder `resources`
 
 # Load data , reprocess and parameters in transform
-1.get dataset from folder and store it in a pickle file after preprocessing
+1.get dataset from folder and store it in a pickle file after preprocessing    
   Load data from pickle in `Py_autopilot2_module.py` 
-2.Reprocess data in `Py_autopilot2_pre.ipynb` 
-  Load img data from `driving_dataset` and save data in features_RGB
-  Load img data from `data.txt` and save data in labels
-3.Calculate the mean and std for train data and test data
+2.Reprocess data in `Py_autopilot2_pre.ipynb`   
+  Load img data from `driving_dataset` and save data in features_RGB  
+  Load img data from `data.txt` and save data in labels  
+3.Calculate the mean and std for train data and test data    
   Use the first part code in `Py_autopilot2_debug.ipynb` to get mean and std for train dataset and test dataset, and fill in `transform`
 
   Note: In order to get the better results, driving dataset should be load in array and flip horizontal before trainning the network, that means data in array bill be double.
 
 # Train network
-  Train network code in `Py_autopilot2_debug.ipynb`, network definition and loss function could be found in `Py_autopilot2_module.py`
-  During trainning network, check the input img and output loss. Please refer to `YX_Methods.ipynb`
-  Trained models are saved in folder `modeles`, 
+  Train network code in `Py_autopilot2_debug.ipynb`, network definition and loss function could be found in `Py_autopilot2_module.py`  
+  During trainning network, check the input img and output loss. Please refer to `YX_Methods.ipynb`  
+  Trained models are saved in folder `modeles`   
 
 # Test (Run trained model on test dataset)
-  Check the mean and std in Use the model to verify the test dataset, and execute the visual display.
-  Run `Py_autopilot2_final_testshow.py` and can see the test results.
-  The first array has three windows, which include input image, normalized image data, predict steer angle.
+  Check the mean and std in Use the model to verify the test dataset, and execute the visual display.  
+  Run `Py_autopilot2_final_testshow.py` and can see the test results.  
+  The first array has three windows, which include input image, normalized image data, predict steer angle.   
 
 # File Organization
-├── Autopilot_V2_Pytorch (Current Directory) 
+├── Autopilot_V2_Pytorch (Current Directory)   
     ├── driving_dataset  
     ├── LICENSE  
     ├── modeles  
-    ├── Py_autopilot2_debug.ipynb 
+    ├── Py_autopilot2_debug.ipynb  
     ├── Py_autopilot2_final_testshow.py  
     ├── Py_autopilot2_module.py  
     ├── Py_autopilot2_pre.ipynb  
