@@ -53,7 +53,7 @@ The png number and Steer angle are saved in data.txt which is included in folder
 ├── Autopilot_V2_Pytorch (Current Directory)   
     ├── driving_dataset  
     ├── LICENSE  
-    ├── modeles  
+    ├── models  
     ├── Py_autopilot2_debug.ipynb  
     ├── Py_autopilot2_final_testshow.py  
     ├── Py_autopilot2_module.py  
