@@ -3,7 +3,7 @@ This project is a end to end Autopilot project, which coded with Pytorch.
 Network use RGB camera as input, and output steer angle.
 
 
-Authors:  Frank yu
+Authors:  ZengTaiping, Frank yu
 
 # Inspiration
 * [A simple self-driving car module for humans](https://github.com/akshaybahadur21/Autopilot)   
